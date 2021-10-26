@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.barra {
+  border-style: solid;
+  border-color: #111;
+  border-width: 1px;
+  padding-right: 0px;
+  background-color: rgba(20, 128, 223, 0.856);
+  color: Black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.barra2 {
+  border-style: solid;
+  border-color: #111;
+  border-width: 1px;
+  padding-right: 30px;
+  background-color: rgba(223, 20, 37, 0.856);
+  color: Black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+a:hover,
+a:active {
+  background-color: rgb(3, 69, 192);
+}
+
+header {
+
+  text-align: center;
+}
+
+img {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.foro {
+  font-size: xxx-large;
+  color: rgb(3, 3, 46);
+  
+}
+
+.explicacion {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.explicaciontext {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.nombres {
+  text-decoration: solid;
+}
+
